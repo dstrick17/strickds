@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, url_for
 import os
 import logging
 
@@ -25,20 +25,28 @@ def home():
                            contact_email=contact_email,
                            projects=projects)
 
-@app.route('/about/')
+@app.route('/about')
 def about():
     about = "We are a team of Data Science Consultants eager to work on varying projects. From Healthcare to Computer Vision, Strick Data Solutions is here to help. Contact us to collaborate or consult!"
     return render_template('about.html',
                            about=about)
 
-@app.route('/contact/')
+@app.route('/about/')
+def about_with_slash():
+    return redirect(url_for('about'))
+
+@app.route('/contact')
 def contact():
     contact_email = "strickds@proton.me"
     print("Contact page accessed") 
     return render_template('contact.html',
                            contact_email=contact_email) 
 
-@app.route('/projects/')
+@app.route('/contact/')
+def contact_with_slash():
+    return redirect(url_for('contact'))
+
+@app.route('/projects')
 def projects():
     projects = [
         {"title": "Hampden County Registry of Deeds", "desc": "Leveraged a powerful computer vision model to transcribe 300 year old documents into a digitized format. This data was then indexed, making search much more efficient."},
@@ -47,6 +55,9 @@ def projects():
     return render_template('projects.html',
                             projects=projects)
 
+@app.route('/projects/')
+def projects_with_slash():
+    return redirect(url_for('projects'))
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
