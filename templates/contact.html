@@ -20,15 +20,15 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/about">About Us</a>
+            <a class="nav-link" aria-current="page" href="{{ url_for('about') }}">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/projects">Projects</a>
+            <a class="nav-link" href="{{ url_for('projects') }}">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link d-none d-lg-block" href="/contact" style="background-color: rgb(251, 89, 89); color: azure;">Contact</a>
-            <a class="nav-link d-lg-none" href="/contact">Contact</a>
-         </li>
+            <a class="nav-link d-none d-lg-block" href="{{ url_for('contact') }}" style="background-color: rgb(251, 89, 89); color: azure;">Contact</a>
+            <a class="nav-link d-lg-none" href="{{ url_for('contact') }}">Contact</a>
+          </li>
         </ul>
       </div>
     </div>
