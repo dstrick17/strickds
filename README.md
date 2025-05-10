@@ -1,0 +1,2 @@
+# strickds
+Data Science Startup
