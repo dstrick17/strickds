@@ -1,6 +1,10 @@
 from flask import Flask, render_template
+import os
+import logging
 
 app = Flask(__name__)
+
+logging.basicConfig(level=logging.INFO)
 
 @app.route('/')
 def home():
@@ -30,6 +34,7 @@ def about():
 @app.route('/contact')
 def contact():
     contact_email = "strickds@proton.me"
+    print("Contact page accessed") 
     return render_template('contact.html',
                            contact_email=contact_email) 
 
