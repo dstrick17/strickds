@@ -25,20 +25,20 @@ def home():
                            contact_email=contact_email,
                            projects=projects)
 
-@app.route('/about')
+@app.route('/about/')
 def about():
     about = "We are a team of Data Science Consultants eager to work on varying projects. From Healthcare to Computer Vision, Strick Data Solutions is here to help. Contact us to collaborate or consult!"
     return render_template('about.html',
                            about=about)
 
-@app.route('/contact')
+@app.route('/contact/')
 def contact():
     contact_email = "strickds@proton.me"
     print("Contact page accessed") 
     return render_template('contact.html',
                            contact_email=contact_email) 
 
-@app.route('/projects')
+@app.route('/projects/')
 def projects():
     projects = [
         {"title": "Hampden County Registry of Deeds", "desc": "Leveraged a powerful computer vision model to transcribe 300 year old documents into a digitized format. This data was then indexed, making search much more efficient."},
