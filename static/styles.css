@@ -1,0 +1,21 @@
+.hero-section {
+    background: url('/static/bg-2.jpg') no-repeat center center;
+    background-size: cover;
+    height: 92vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+
+  .hero-section-quote {
+    background: url('/static/bg-1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 15vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
