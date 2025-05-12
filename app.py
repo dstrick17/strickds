@@ -16,7 +16,7 @@ def home():
     team = "We're a team of highly skilled data scientists and AI engineers who thrive on solving complex challenges. Our size allows us to be agile, our focus keeps us efficient, and our passion ensures every project delivers real impact."
     value = ["Clarity over jargon", "Speed without compromise", "Partnership over transactions", "Results that matter"]
     quote = "Whether you're trying to make sense of messy data, automate workflows, build predictive models, or simply figure out where to start, we’re here to guide you."
-    contact_email = "strickds@proton.me"
+    contact_email = "info@strickds.com"
     return render_template('home.html',
                            mission=mission,
                            team=team,
@@ -37,7 +37,7 @@ def about_with_slash():
 
 @app.route('/contact/')
 def contact():
-    contact_email = "strickds@proton.me"
+    contact_email = "info@strickds.com"
     print("Contact page accessed") 
     return render_template('contact.html',
                            contact_email=contact_email) 
