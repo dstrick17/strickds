@@ -9,8 +9,8 @@ logging.basicConfig(level=logging.INFO)
 @app.route('/')
 def home():
     projects = [
-        {"title": "Hampden County Registry of Deeds", "desc": "Leveraged a powerful computer vision model to transcribe 300 year old documents into a digitized format. This data was then indexed, making search much more efficient."},
-        {"title": "Radiologist Level Computer Vision Model", "desc": "We developed and trained a Computer Vision Model to read chest X-Rays, with an accuracy of x.xx %. This model has been made publically available in order to help trained professionals to be able to diagnose patients more efficiently. ", "link" : "https://huggingface.co/spaces/cfgpp/Danny_Net_Demo"}
+        {"title": "Hampden County Registry of Deeds", "desc": "Transformed centuries of historical records for the Hampden County Registry of Deeds by applying advanced computer vision. Our model digitized 300-year-old documents, enabling efficient search and access to invaluable information"},
+        {"title": "Developed a cutting-edge Computer Vision Model for chest X-Ray analysis", "desc": "Achieving an average AUC-ROC of 0.85, this publicly available tool empowers radiologists with an efficient aid for more accurate and timely patient diagnoses.", "link": "https://huggingface.co/spaces/cfgpp/Danny_Net_Demo"},
     ]
     mission = "Strick Data Solutions is a data science and AI consulting agency based in Boston, Massachusetts. We specialize in helping small and medium-sized businesses unlock the power of their data to drive smarter decisions, boost efficiency, and fuel growth. Founded on the belief that cutting-edge technology should be accessible to all businesses, not just Fortune 500s, we bring elite data science and AI expertise to organizations that need practical, scalable, and personalized solutions."
     team = "We're a team of highly skilled data scientists and AI engineers who thrive on solving complex challenges. Our size allows us to be agile, our focus keeps us efficient, and our passion ensures every project delivers real impact."
@@ -49,8 +49,8 @@ def contact_with_slash():
 @app.route('/projects/')
 def projects():
     projects = [
-        {"title": "Hampden County Registry of Deeds", "desc": "Leveraged a powerful computer vision model to transcribe 300 year old documents into a digitized format. This data was then indexed, making search much more efficient."},
-        {"title": "Radiologist Level Computer Vision Model", "desc": "We developed and trained a Computer Vision Model to read chest X-Rays, with an accuracy of x.xx %. This model has been made publically available in order to help trained professionals to be able to diagnose patients more efficiently. ", "link" : "https://huggingface.co/spaces/cfgpp/Danny_Net_Demo"}
+        {"title": "Hampden County Registry of Deeds", "desc": "Transformed centuries of historical records for the Hampden County Registry of Deeds by applying advanced computer vision. Our model digitized 300-year-old documents, enabling efficient search and access to invaluable information"},
+        {"title": "Developed a cutting-edge Computer Vision Model for chest X-Ray analysis", "desc": "Achieving an average AUC-ROC of 0.85, this publicly available tool empowers radiologists with an efficient aid for more accurate and timely patient diagnoses.", "link": "https://huggingface.co/spaces/cfgpp/Danny_Net_Demo"},
     ]
     return render_template('projects.html',
                             projects=projects)
