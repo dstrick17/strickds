@@ -10,12 +10,12 @@ PROJECTS_DATA = [
     {
         "title": "Digitizing Centuries of History with Computer Vision",
         "desc": "Developed a sophisticated computer vision pipeline to transcribe and digitize centuries-old handwritten records from the 18th century for the Hampden County Registry of Deeds. Our solution transformed 300-year-old documents into an easily searchable digital format, unlocking invaluable historical information.",
-        "link": None
+        "link": "https://drive.google.com/file/d/1Fb0ZTVv_asP_Eh5YXzF9sgGjvfxtbmM0/view?usp=sharing"
     },
     {
         "title": "AI-Powered Chest X-Ray Analysis for Enhanced Diagnostics",
         "desc": "Developed a cutting-edge computer vision model for interpreting chest X-rays, achieving an impressive average AUC-ROC of 0.85 (ranking second on Papers With Code) and a leading macro F1 score of 0.39. This publicly accessible tool provides radiologists with an efficient and accurate aid for timely patient diagnoses.",
-        "link": "https://huggingface.co/spaces/cfgpp/Danny_Net_Demo"
+        "link": "https://arxiv.org/abs/2505.06646"
     },
     {
         "title": "Empowering Education Through Technology: Website and Database for Volunteer Tutors",
@@ -25,7 +25,7 @@ PROJECTS_DATA = [
     {
         "title": "Interactive Data Visualization for Federal Grant Distribution Analysis",
         "desc": "Created an interactive web application for Senator Edward Markey’s Office to analyze over $10 billion in federal grant distributions across Massachusetts. This tool enables in-depth exploration and visualization of complex data, supporting informed decision-making and policy analysis.",
-        "link": None
+        "link": "https://drive.google.com/file/d/1pGtc580Z6M3h_ymucOys10HG6rU7lgri/view?usp=sharing"
     },
 ]
 
