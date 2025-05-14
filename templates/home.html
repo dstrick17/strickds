@@ -44,7 +44,7 @@
   <div class="hero-section">
     <header class="mb-5 text-center" data-aos="fade-down">
       <h1 class="display-4">Strick Data Solutions</h1>
-      <p class="lead">We are Strick with your data.</p>
+      <p class="lead">Data and AI solutions, Precisely Delivered</p>
     </header>
   </div>
   
@@ -60,33 +60,13 @@
       <p>{{ team }}</p>
     </section>
 
-    <section class="mb-5 text-center" data-aos="fade-up">
-      <p style="font-style: italic;">{{ quote }}</p>
-    </section>
-
-    <section class="mb-5" data-aos="fade-up">
-      <h2 class="h3">Example Projects</h2>
-      <div class="row">
-        {% for project in projects %}
-          <div class="col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="{{ loop.index0 + 100 }}">
-            <div class="card shadow-sm">
-              <div class="card-body">
-                <h5 class="card-title">
-                  <a href="{{ project.link }}" class="text-decoration-none" target="_blank" rel="noopener noreferrer">
-                    {{ project.title }}
-                  </a>
-                </h5>
-                <p class="card-text">{{ project.desc }}</p>
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </section>
-
     <section data-aos="fade-up">
       <h2 class="h3">Contact</h2>
       <p>Email us at <a href="mailto:{{ contact_email }}">{{ contact_email }}</a></p>
+    </section>
+
+    <section class="mb-5 text-center" data-aos="fade-up">
+      <p style="font-style: italic;">{{ quote }}</p>
     </section>
   </div>
 
