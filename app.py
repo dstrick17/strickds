@@ -29,6 +29,11 @@ PROJECTS_DATA = [
     },
 ]
 
+TEAM_MEMBERS = [{"name": "Daniel Strick", "role": "Founder / Lead Data Scientist", "image":'member_pics/danny.jpeg', "description":"I focus on designing and implementing sophisticated, data-driven solutions across various domains, translating intricate data challenges into tangible outcomes that boost efficiency and deliver strategic advantages for our clients.", "linkedIn":"https://www.linkedin.com/in/daniel-strick-512999116/"},
+                {"name": "Carlos Fernando Garcia Padilla", "role":"ML Engineer", "image":"member_pics/carlos.jpeg", "description":"I did my undergraduate at the University of California, San Diego with a major in Bioinformatics and a minor in Computer Science, and I am currently a Master student at Boston University studying Data Science.", "linkedIn":"https://www.linkedin.com/in/cfgp/"},
+                {"name": "Chuqiao (Carrie) Feng", "role":"AI Engineer", "image":"member_pics/carrie.jpeg", "description":"hii", "linkedIn":"https://www.linkedin.com/in/chuqiao-feng/"},
+                {"name": "Hsiang Yu (Anna) Huang", "role":"Data Engineer", "image":"member_pics/anna.jpg", "description":"I graduated from NTUST with majors in Industrial Management and Finance and a minor in Computer Science, and I am currently pursuing a master's degree in Data Science at Boston University.", "linkedIn":"https://www.linkedin.com/in/hsiangyuhuang/"},]
+
 @app.route('/')
 def home():
     mission = "Strick Data Solutions is a data science and AI consulting agency based in Boston, Massachusetts. We specialize in helping small and medium-sized businesses unlock the power of their data to drive smarter decisions, boost efficiency, and fuel growth. Founded on the belief that cutting-edge technology should be accessible to all businesses, not just Fortune 500s, we bring elite data science and AI expertise to organizations that need practical, scalable, and personalized solutions."
@@ -86,6 +91,15 @@ def projects():
 @app.route('/projects')
 def projects_with_slash():
     return redirect(url_for('projects'))
+
+@app.route('/team/')
+def team():
+    team_information = "Our team is composed of highly skilled data scientists and AI engineers who thrive on solving complex challenges. Founder Daniel Strick serves as a Principal AI/ML Engineer, bringing deep expertise in machine learning, deep learning, and robust data engineering to Strick Data Solutions."
+    return render_template('team.html', team_members=TEAM_MEMBERS,
+                           team_information = team_information)  # Use global TEAM_MEMBERS
+@app.route('/team')
+def team_with_slash():
+    return redirect(url_for('team'))
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
