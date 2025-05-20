@@ -31,7 +31,7 @@ PROJECTS_DATA = [
 
 TEAM_MEMBERS = [{"name": "Daniel Strick", "role": "Founder / Lead Data Scientist", "image":'member_pics/danny.jpeg', "description":"I focus on designing and implementing sophisticated, data-driven solutions across various domains, translating intricate data challenges into tangible outcomes that boost efficiency and deliver strategic advantages for our clients.", "linkedIn":"https://www.linkedin.com/in/daniel-strick-512999116/"},
                 {"name": "Carlos Fernando Garcia Padilla", "role":"ML Engineer", "image":"member_pics/carlos.jpeg", "description":"I did my undergraduate at the University of California, San Diego with a major in Bioinformatics and a minor in Computer Science, and I am currently a Master student at Boston University studying Data Science.", "linkedIn":"https://www.linkedin.com/in/cfgp/"},
-                {"name": "Chuqiao (Carrie) Feng", "role":"AI Engineer", "image":"member_pics/carrie.jpeg", "description":"hii", "linkedIn":"https://www.linkedin.com/in/chuqiao-feng/"},
+                {"name": "Chuqiao (Carrie) Feng", "role":"AI Engineer", "image":"member_pics/carrie.jpg", "description":"hii", "linkedIn":"https://www.linkedin.com/in/chuqiao-feng/"},
                 {"name": "Hsiang Yu (Anna) Huang", "role":"Data Engineer", "image":"member_pics/anna.jpg", "description":"I graduated from NTUST with majors in Industrial Management and Finance and a minor in Computer Science, and I am currently pursuing a master's degree in Data Science at Boston University.", "linkedIn":"https://www.linkedin.com/in/hsiangyuhuang/"},]
 
 @app.route('/')
