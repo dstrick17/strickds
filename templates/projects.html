@@ -1,68 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Projects- Strick DS</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- AOS CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-</head>
-<body class="bg-light text-dark">
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container">
-      <a class="navbar-brand" href="/">Strick Data Solutions</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="{{ url_for('about') }}">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="{{ url_for('team') }}">Our Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('projects') }}">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link d-none d-lg-block" href="{{ url_for('contact') }}" style="background-color: rgb(251, 89, 89); color: azure;">Contact</a>
-            <a class="nav-link d-lg-none" href="{{ url_for('contact') }}">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="container py-5">
-    <section class="mb-5" data-aos="fade-up">
-        <h1 class="display-4 pb-2">Projects</h1>
-        <div class="row">
-          {% for project in projects %}
-            <div class="col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="{{ loop.index0 * 100 }}">
-              <div class="card shadow-sm">
-                <div class="card-body">
-                  <h5 class="card-title">
-                    <a href="{{ project.link }}" class="text-decoration-none" target="_blank" rel="noopener noreferrer">
-                      {{ project.title }}
-                    </a>
-                  </h5>
-                  <p class="card-text">{{ project.desc }}</p>
-                  
-                </div>
-              </div>
-            </div>
-          {% endfor %}
-        </div>
-      </section>
-  </div>
-  <!-- AOS JS -->
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+{% extends "base.html" %}
 
-</body>
-</html>
+{% block title %}Strick DS - Projects{% endblock %}
+
+{% block content %}
+  <section class="mb-5" data-aos="fade-up">
+    <h1 class="display-4 pb-2">Projects</h1>
+    <div class="row">
+      {% for project in projects %}
+        <div class="col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="{{ loop.index0 * 100 }}">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="{{ project.link }}" class="text-decoration-none" target="_blank" rel="noopener noreferrer">
+                  {{ project.title }}
+                </a>
+              </h5>
+              <p class="card-text">{{ project.desc }}</p>
+              
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}
