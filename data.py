@@ -56,4 +56,9 @@ ADVISORS = [{"name": "Chris Seferlis",
              "role": "BI Advisor", 
              "image":'member_pics/seferlis.jpeg', 
              "description":"Chris holds an MBA from the University of Massachusetts, and has over 25 years’ experience in IT and a deep background in Data Warehousing and Business Intelligence. He is a Director of Technology Strategy at Microsoft, and a visiting Data Science Professor at Boston University.", 
-             "linkedIn":"https://seferlis.com"},]
+             "linkedIn":"https://seferlis.com"},
+             {"name": "Joan DiMicco", 
+             "role": "PM Advisor", 
+             "image":'member_pics/joan.jpeg', 
+             "description":"Joan holds a Ph.D. from MIT's Media Lab and brings over 18 years of extensive product management leadership to Strick Data Solutions. Her experience spans prestigious organizations including IBM, Forrester, and WBUR, complemented by her current role as a Visiting Professor at Boston University.", 
+             "linkedIn":"https://www.linkedin.com/in/joandimicco/"}]
