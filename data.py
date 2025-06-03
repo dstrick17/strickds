@@ -65,5 +65,5 @@ ADVISORS = [{"name": "Chris Seferlis",
              {"name": "Scott Ladenheim", 
              "role": "Tech Advisor", 
              "image":'member_pics/scott.jpg', 
-             "description":"Scott holds a Ph.D. in mathematics from Temple University. He possesses extensive technical expertise in large-scale scientific computing and software development. His background includes leadership roles in both startup environments and large enterprises, where he has served as a technical team lead. He is an Associate Professor of the Practice in the Faculty of Computing and Data Sciences at Boston University.", 
+             "description":"Scott holds a Ph.D. in mathematics from Temple University. He possesses expertise in large-scale scientific computing and software development. His background includes technical leadership roles in both startups and large enterprises. He is an Associate Professor of the Practice in the Faculty of Computing and Data Sciences at Boston University.", 
              "linkedIn":""}]
