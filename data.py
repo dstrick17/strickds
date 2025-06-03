@@ -61,4 +61,9 @@ ADVISORS = [{"name": "Chris Seferlis",
              "role": "PM Advisor", 
              "image":'member_pics/joan.jpeg', 
              "description":"Joan holds a Ph.D. from MIT's Media Lab and brings over 18 years of extensive product management leadership to Strick Data Solutions. Her experience spans prestigious organizations including IBM, Forrester, and WBUR, complemented by her current role as a Visiting Professor at Boston University.", 
-             "linkedIn":"https://www.linkedin.com/in/joandimicco/"}]
+             "linkedIn":"https://www.linkedin.com/in/joandimicco/"},
+             {"name": "Scott Ladenheim", 
+             "role": "Tech Advisor", 
+             "image":'member_pics/scott.jpg', 
+             "description":"Scott holds a Ph.D. in mathematics from Temple University. He possesses extensive technical expertise in large-scale scientific computing and software development. His background includes leadership roles in both startup environments and large enterprises, where he has served as a technical team lead. He is an Associate Professor of the Practice in the Faculty of Computing and Data Sciences at Boston University.", 
+             "linkedIn":""}]
