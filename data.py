@@ -2,7 +2,7 @@ PROJECTS_DATA = [
     {
         "title": "Digitizing Centuries of History with Computer Vision",
         "desc": "Developed a sophisticated computer vision pipeline to transcribe and digitize centuries-old handwritten records from the 18th century for the Hampden County Registry of Deeds. Our solution transformed 300-year-old documents into an easily searchable digital format, unlocking invaluable historical information.",
-        "link": "https://drive.google.com/file/d/1Fb0ZTVv_asP_Eh5YXzF9sgGjvfxtbmM0/view?usp=sharing"
+        "link": "https://drive.google.com/file/d/1SPXQ6G9MswibnlBv3CA-xJzIsrTqqsCp/view?usp=sharing"
     },
     {
         "title": "AI-Powered Chest X-Ray Analysis for Enhanced Diagnostics",
