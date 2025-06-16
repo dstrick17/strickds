@@ -42,9 +42,9 @@ def about():
     return render_template('about.html',
                            about=about)
 
-@app.route('/about')
-def about_with_slash():
-    return redirect(url_for('about'))
+# @app.route('/about')
+# def about_with_slash():
+#     return redirect(url_for('about'))
 
 @app.route('/contact/')
 def contact():
@@ -53,17 +53,17 @@ def contact():
     return render_template('contact.html',
                            contact_email=contact_email)
 
-@app.route('/contact')
-def contact_with_slash():
-    return redirect(url_for('contact'))
+# @app.route('/contact')
+# def contact_with_slash():
+#     return redirect(url_for('contact'))
 
 @app.route('/projects/')
 def projects():
     return render_template('projects.html', projects=PROJECTS_DATA)  # Use global PROJECTS_DATA
 
-@app.route('/projects')
-def projects_with_slash():
-    return redirect(url_for('projects'))
+# @app.route('/projects')
+# def projects_with_slash():
+#     return redirect(url_for('projects'))
 
 @app.route('/team/')
 def team():
@@ -71,9 +71,9 @@ def team():
     return render_template('team.html', team_members=TEAM_MEMBERS,
                            team_information = team_information,
                            advisors = ADVISORS)  # Use global TEAM_MEMBERS
-@app.route('/team')
-def team_with_slash():
-    return redirect(url_for('team'))
+# @app.route('/team')
+# def team_with_slash():
+#     return redirect(url_for('team'))
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
