@@ -49,6 +49,13 @@ TEAM_MEMBERS = [
         "image": "member_pics/anna.jpg",
         "description": "Anna graduated from National Taiwan University of Science and Technology with a double major in Industrial Management and Finance and a minor in Computer Science. She is currently pursuing a Master’s in Data Science at Boston University. Her interests include sales forecasting and product analytics.",
         "linkedIn": "https://www.linkedin.com/in/hsiangyuhuang/"
+    },
+    {
+        "name": "Caslow Chien",
+        "role": "Data Scientist",
+        "image": "member_pics/caslow.jpg",
+        "description": "Caslow is a Data Science Master’s student at Boston University with a background in Physics. She specializes in applying data science to marketing, with expertise in ad budget optimization, ROAS prediction, CRM recommendations, and customer segmentation. Combining technical skills with strategic insight, she transforms complex data into actionable solutions that drive business growth.",
+        "linkedIn": "https://www.linkedin.com/in/caslow/" 
     }
 ]
 
