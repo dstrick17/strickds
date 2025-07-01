@@ -2,22 +2,26 @@ PROJECTS_DATA = [
     {
         "title": "Digitizing Centuries of History with Computer Vision",
         "desc": "Developed a sophisticated computer vision pipeline to transcribe and digitize centuries-old handwritten records from the 18th century for the Hampden County Registry of Deeds. Our solution transformed 300-year-old documents into an easily searchable digital format, unlocking invaluable historical information.",
-        "link": "https://drive.google.com/file/d/1SPXQ6G9MswibnlBv3CA-xJzIsrTqqsCp/view?usp=sharing"
+        "link": "https://drive.google.com/file/d/1SPXQ6G9MswibnlBv3CA-xJzIsrTqqsCp/view?usp=sharing",
+        "tags": ["Computer Vision"]
     },
     {
         "title": "AI-Powered Chest X-Ray Analysis for Enhanced Diagnostics",
         "desc": "Developed a cutting-edge computer vision model for interpreting chest X-rays, achieving an impressive average AUC-ROC of 0.85 (ranking second on Papers With Code) and a leading macro F1 score of 0.39. This publicly accessible tool provides radiologists with an efficient and accurate aid for timely patient diagnoses.",
-        "link": "https://arxiv.org/abs/2505.06646"
+        "link": "https://arxiv.org/abs/2505.06646",
+        "tags": ["Bioinformatics"]
     },
     {
         "title": "Empowering Education Through Technology: Website and Database for Volunteer Tutors",
         "desc": "Designed and built a comprehensive website and database platform for a volunteer organization dedicated to teaching underserved students. This platform streamlines operations, connects tutors with students, and facilitates effective learning.",
-        "link": "https://volunteertutors.netlify.app/"
+        "link": "https://volunteertutors.netlify.app/",
+        "tags": ["Web Development"]
     },
     {
         "title": "Interactive Data Visualization for Federal Grant Distribution Analysis",
         "desc": "Created an interactive web application for Senator Edward Markey’s Office to analyze over $10 billion in federal grant distributions across Massachusetts. This tool enables in-depth exploration and visualization of complex data, supporting informed decision-making and policy analysis.",
-        "link": "https://drive.google.com/file/d/1pGtc580Z6M3h_ymucOys10HG6rU7lgri/view?usp=sharing"
+        "link": "https://drive.google.com/file/d/1pGtc580Z6M3h_ymucOys10HG6rU7lgri/view?usp=sharing",
+        "tags": ["Data Visualization"]
     },
 ]
 

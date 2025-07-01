@@ -16,6 +16,12 @@
                 </a>
               </h5>
               <p class="card-text">{{ project.desc }}</p>
+              <p class="card-text">
+                Tags: 
+                {% for tag in project.tags %}
+                  <span class="badge bg-secondary">{{ tag }}</span>
+                {% endfor %}
+              </p>
               
             </div>
           </div>
