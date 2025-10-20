@@ -3,26 +3,33 @@ PROJECTS_DATA = [
         "title": "Digitizing Centuries of History with Computer Vision",
         "desc": "Developed a sophisticated computer vision pipeline to transcribe and digitize centuries-old handwritten records from the 18th century for the Hampden County Registry of Deeds. Our solution transformed 300-year-old documents into an easily searchable digital format, unlocking invaluable historical information.",
         "link": "https://drive.google.com/file/d/1SPXQ6G9MswibnlBv3CA-xJzIsrTqqsCp/view?usp=sharing",
-        "tags": ["Computer Vision"]
+        "tags": ["Computer Vision", "OCR", "Digital Humanities", "Data Engineering"]
     },
     {
         "title": "AI-Powered Chest X-Ray Analysis for Enhanced Diagnostics",
         "desc": "Developed a cutting-edge computer vision model for interpreting chest X-rays, achieving an impressive average AUC-ROC of 0.85 (ranking second on Papers With Code) and a leading macro F1 score of 0.39. This publicly accessible tool provides radiologists with an efficient and accurate aid for timely patient diagnoses.",
         "link": "https://arxiv.org/abs/2505.06646",
-        "tags": ["Bioinformatics"]
+        "tags": ["Bioinformatics", "Medical Imaging", "Deep Learning", "Healthcare AI"]
     },
     {
         "title": "Empowering Education Through Technology: Website and Database for Volunteer Tutors",
         "desc": "Designed and built a comprehensive website and database platform for a volunteer organization dedicated to teaching underserved students. This platform streamlines operations, connects tutors with students, and facilitates effective learning.",
         "link": "https://volunteertutors.netlify.app/",
-        "tags": ["Web Development"]
+        "tags": ["Web Development", "Database Design", "Education Technology", "Full-Stack"]
     },
     {
         "title": "Interactive Data Visualization for Federal Grant Distribution Analysis",
         "desc": "Created an interactive web application for Senator Edward Markey’s Office to analyze over $10 billion in federal grant distributions across Massachusetts. This tool enables in-depth exploration and visualization of complex data, supporting informed decision-making and policy analysis.",
         "link": "https://drive.google.com/file/d/1pGtc580Z6M3h_ymucOys10HG6rU7lgri/view?usp=sharing",
-        "tags": ["Data Visualization"]
+        "tags": ["Data Visualization", "Public Policy", "Interactive Dashboards", "Data Analytics"]
     },
+    {
+        "title": "A Prospective Analysis of Vasoreactivity and Mortality in WHO Group 3 Pulmonary Hypertension",
+        "desc": "This study examined patients with WHO Group 3 pulmonary hypertension (i.e., lung disease-related PH) to evaluate whether acute vasoreactivity testing—specifically changes in pulmonary vascular resistance (PVR) or mean pulmonary artery pressure (mPAP) during inhaled nitric oxide—predicts survival. The key finding was that a larger **drop in PVR** during the vasodilator challenge was associated with *worse* survival in this population, contrary to expectations, whereas changes in mPAP were not predictive. These results suggest that the vasoconstrictive component in lung disease–related PH may signal more advanced remodeling and poorer prognosis, and that the typical criteria used for vasoreactivity in PAH may not apply in Group 3 PH. (Strick et al., 2025)",
+        "link": "https://onlinelibrary.wiley.com/doi/10.1002/pul2.70078",
+        "tags": ["Pulmonary Hypertension", "Clinical Research", "Biostatistics", "Vasoreactivity Testing"]
+    },
+
 ]
 
 TEAM_MEMBERS = [
